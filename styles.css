@@ -13,11 +13,11 @@ body{
  textarea,div{
     display: block;
     border: 1px solid black;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
     margin: auto;
     margin-bottom: 2rem;
     height: 100px;
-    width: 500px;
+    width: 300px;
     font-size: 2rem;
 }
 
@@ -40,4 +40,8 @@ header,footer{
     padding: 1rem 2rem;
     background-color: yellowgreen;
 } 
+
+p{
+    padding: 0 2rem;
+}
 
