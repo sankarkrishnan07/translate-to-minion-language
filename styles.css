@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+textarea,#output{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    height: 100px;
+    width: 400px;
+}
