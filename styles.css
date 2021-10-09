@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Markerwght@300&display=swap');
+
 body{
     display: grid;
     place-items: center;
+    font-family: 'Permanent Marker', cursive;
     padding: 1rem;
     margin: 1rem;
+    font-size: 1.5rem;
 }
 
 textarea,#output{
@@ -11,4 +15,9 @@ textarea,#output{
     margin: 1rem;
     height: 100px;
     width: 400px;
+}
+
+img{
+    height: 100%;
+    width: 50%;
 }
