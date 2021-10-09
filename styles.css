@@ -1,20 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Markerwght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 
+* {
+    font-family: 'Hi Melody', cursive;
+}
 body{
-    display: grid;
-    place-items: center;
-    font-family: 'Permanent Marker', cursive;
-    padding: 1rem;
-    margin: 1rem;
-    font-size: 1.5rem;
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
 }
 
-textarea,#output{
+ textarea,div{
+    display: block;
     border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
     height: 100px;
     width: 500px;
+    font-size: 2rem;
+}
+
+
+button{
+    border: none;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: yellowgreen;
 }
 
 img{
@@ -22,7 +35,9 @@ img{
     width: 50%;
 }
 
-button,::placeholder{
-    font-family: 'Permanent Marker', cursive;
-    background-color: rgb(181, 253, 38);
-}
+header,footer{
+    margin: 0;
+    padding: 1rem 2rem;
+    background-color: yellowgreen;
+} 
+
